@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang=”en”>
+<head>
+    <meta charset=”UTF-8″ />
+    <title>PASTELERIA EL PERRO ASTRONAUTA</title>
+</head>
+<body>
+
+    <h1>PASTELERIA EL PERRO ASTRONAUTA</h1>
+    <img src="Logo Pasteleria.jpg" width="450px"/>
+    <h2>Bienvenido</h2>
+    <h3>Menú de pasteles</h3>
+    <ul>
+        <li>
+            <h2>Pasteles (1Kg) </h2>
+        </li>
+                <p>Pastel de chocolate ---------------------- $ 250</p>
+                <p>Pastel de vainilla ------------------------- $ 220</p>
+                <p>Pastel de chocolate con vainilla ---------- $ 280</p>
+                <p>Pastel de chocolate con nueces ---------- $ 290</p>
+                <p>Pastel de fresa --------------------------- $ 240</p>
+        <li>
+            <h2>Adornos</h2>
+            <p>Adorno de chocolate --------------------------- $70 </p>
+            <p>Adorno de vainilla -----------------------------$50</p>
+            <p>Adorno de fresa -------------------------------- $60</p>
+            <p>Vela de cumpleaños ------------------------------- $15</p>
+        </li>
+
+            <li>  
+            <h2>Postres</h2>
+                <p>Flan----------------------------------------- $15</p>
+                <p>Helado---------------------------------------- $20</p>
+                <p>Tarta----------------------------------------- $25</p>
+                <p>Fresas con crema ----------------------------- $30</p>
+                <p>Fresas con crema y nueces ------------------- $35</p>
+        </li>
+        <li>
+            <h2>Bebidas</h2>
+                <p>Chocolate caliente ---------------------------------- $ 45</p>
+                <p>Chocolate frio -------------------------------------- $ 50</p>
+                <p>Té verde --------------------------------------------- $ 35</p>
+                <p>Té ----------------------------------------------------$ 40</p>   
+                <p>Café -------------------------------------------------- $ 30</p>
+                <p>Café con leche --------------------------------------- $ 40</p>
+                <p>Café con leche y nueces --------------------------- $ 50</p>
+                <p>Café con leche y nueces y chocolate ---------------- $ 60</p>
+        </li>
+
+    </ul>
+
+        <fieldset>Haga su pedido aqui:
+        <br>
+        <br>
+        <form action ="gracias.html">
+        <label for="nombre">Nombre</label>
+        <input type="text" name="nombre" placeholder="Nombre" required>
+        <br>
+        <br>
+        <label for="apellido">Apellido</label>
+        <input type="text" name="apellido" placeholder="Apellido" required>
+        <br>
+        <br>
+        <label for="direccion">Dirección</label>
+        <input type="text" name="direccion" placeholder="Direccion" required>
+        <br>
+        <br>
+        <label for="telefono">Teléfono</label>
+        <input type="text" name="telefono" placeholder="Telefono" required>
+        <br>
+        <br>
+        <label for="email">Email</label>
+        <input type="text" name="email" placeholder="Email" required>
+        <br>
+        <br>
+        <label for="fecha">Fecha</label>
+        <input type="date" name="fecha" placeholder="Fecha" required>
+        <br>
+        <br>
+        <label>Seleccione el pastel que deseea ordenar: </label>
+        <select name="pastel">
+            <option value="pastel1">Pastel de chocolate</option>
+            <option value="pastel2">Pastel de vainilla</option>
+            <option value="pastel3">Pastel de chocolate con vainilla</option>
+            <option value="pastel4">Pastel de chocolate con nueces</option>
+            <option value="pastel5">Pastel de fresa</option>
+        </select>
+        <br>
+        <br>
+        <label>Seleccione el adorno que deseea ordenar: </label>
+        <select name="adorno">
+            <option value="adorno1">Adorno de chocolate</option>
+            <option value="adorno2">Adorno de vainilla</option>
+            <option value="adorno3">Adorno de fresa</option>
+            <option value="adorno4">Vela de cumpleaños</option>
+        </select>
+        <br>
+        <br>
+        <label>Desea agregar otro sabor al pastel? </label>
+        <select name="sabor">
+            <option value="sabor1">Si</option>
+            <option value="sabor2">No</option>
+        </select>
+        <br>
+        <br>
+        <label>Que sabor?</label>
+        <select name="sabor2">
+            <option value="sabor3">Chocolate</option>
+            <option value="sabor4">Vainilla</option>
+            <option value="sabor5">Fresa</option>
+        </select>
+        <br>
+        <br>
+        <label>Desea que el pastel lleve alguna leyenda ? </label>
+        <select name="leyenda">
+            <option value="leyenda1">Si</option>
+            <option value="leyenda2">No</option>
+        </select>
+        <br>
+        <br>
+        <label>Escriba la leyenda: </label>
+        <input type="text" name="leyenda1" placeholder="Leyenda">
+        <br>
+        <br>
+        <label>Seleccione el postre que deseea ordenar: </label>
+        <select name="postre">
+            <option value="postre1">Flan</option>
+            <option value="postre2">Helado</option>
+            <option value="postre3">Tarta</option>
+            <option value="postre4">Fresas con crema</option>
+            <option value="postre5">Fresas con crema y nueces</option>
+            <option value="ninguno">Ninguno</option>
+        </select>
+        <br>
+        <br>
+        <label>Seleccione la bebida que deseea ordenar: </label>
+        <select name="bebida">
+            <option value="bebida1">Chocolate caliente</option>
+            <option value="bebida2">Chocolate frio</option>
+            <option value="bebida3">Té verde</option>
+            <option value="bebida4">Té</option>
+            <option value="bebida5">Café</option>
+            <option value="bebida6">Café con leche</option>
+            <option value="bebida7">Café con leche y nueces</option>
+            <option value="bebida8">Café con leche y nueces y chocolate</option>
+            <option value="ninguno">Ninguno</option>
+        </select>
+        <br>
+        <br>
+        <label>Seleccione el tipo de envio que deseea: </label>
+        <select name="envio">
+            <option value="domicilio">Domicilio</option>
+            <option value="tienda">Tienda</option>
+            </select>
+        <br>
+        <br>
+        <label>Seleccione el tipo de pago que deseea: </label>
+        <select name="pago">
+            <option value="efectivo">Efectivo</option>
+            <option value="tarjeta">Tarjeta</option>
+            </select>
+        <br>
+        <br>
+        <input type="submit"value="Enviar" action ="gracias.html">
+        </fieldset>
+        </form>
+    
+
+    
+       
+</body>
+</html> 
